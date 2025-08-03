@@ -16,20 +16,20 @@ Store the MATLAB scripts in a main folder. Inside this folder, create a subfolde
 - masks test
 The resulting folder structure should look as follows:
 
-Main project folder/
-├── synthFluorescenceDetection_clVAE_main.m
-├── fgsFluorescenceDetection_clVAE_main.m
-├── FD_contrastiveLossFunc.m
-├── ...
-├── Images and Masks/
-│   ├── masks ala/
-│   │   ├── P001_1_mask.mat
-│   │   └── ...
-│   ├── masks liquid/
-│   │   ├── mask_001ug.mat
-│   │   └── ...
-│   └── masks test/
-│   │   ├── mask_001ug_test.mat
-│   │   └── ... 
+- Main project folder/
+- ├── synthFluorescenceDetection_clVAE_main.m
+- ├── fgsFluorescenceDetection_clVAE_main.m
+- ├── FD_contrastiveLossFunc.m
+- ├── ...
+- ├── Images and Masks/
+- │   ├── masks ala/
+- │   │   ├── P001_1_mask.mat
+- │   │   └── ...
+- │   ├── masks liquid/
+- │   │   ├── mask_001ug.mat
+- │   │   └── ...
+- │   └── masks test/
+- │   │   ├── mask_001ug_test.mat
+- │   │   └── ... 
 
 Adjustig the VAE models beta factor can be done by changing the beta_max variable in the "main" scrips "Initialize VAE net" section.

@@ -14,6 +14,7 @@ Store the MATLAB scripts in a main folder. Inside this folder, create a subfolde
 - masks ala
 - masks liquid
 - masks test
+
 The resulting folder structure should look as follows:
 
 - Main project folder/
